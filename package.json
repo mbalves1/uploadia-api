@@ -1,0 +1,27 @@
+{
+  "name": "uploadia-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.10",
+    "dotenv": "^16.4.1",
+    "prisma": "^5.9.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@fastify/multipart": "^8.1.0",
+    "@prisma/client": "5.9.0",
+    "fastify": "^4.26.0",
+    "openai": "^4.26.0",
+    "zod": "^3.22.4"
+  }
+}
